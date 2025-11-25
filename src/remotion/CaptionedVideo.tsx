@@ -8,6 +8,8 @@ export type Caption = {
   from: number; // frame
   durationInFrames: number;
   text: string;
+  start: number;
+  end: number;
 };
 
 type Props = {
